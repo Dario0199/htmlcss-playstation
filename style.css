@@ -25,11 +25,13 @@ body{
     width: 100%;
     height:570px;
     background-image: url(./img/jumbo-bg.png);
-    object-fit: cover;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .returnal-txt{
     color: white;
+    font-size: 14px;
 }
 
 .buy{
@@ -90,12 +92,13 @@ body{
 
 .box-ps5 img{
     width: 50%;
+    filter: opacity(0.5);
 }
 
 .accessories{
     text-align: center;
     color: grey;
-    font-size: 14px;
+    font-size: 14px;    
     font-weight: 500;
     
 }
@@ -103,23 +106,42 @@ body{
 .accessories:hover{
     border-bottom: 2px solid blue;
     color: black;
+    
+}
+
+.accessories:hover img{
+    filter: none;
 }
 
 /* it takes two section */
 .it_takes_2{
-    height: 100%;
-}
-
-
-.it_takes_2 .t_2-background{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    position: relative;
+    height:500px;
+    background-position: center;
+    background-size: cover;
 }
 
 .t_2-txt{
-  position: absolute;
+    color: white;
+    font-size: 14px;
+}
+
+/* new releases section */
+.new-releases-bg{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 34, 34);
+}
+
+.new-rel-title{
+    color: white;
+}
+
+.box-new-rel{
+    font-size: 14px;
+    font-weight: 500;
+
 }
 
 /* media queries */
