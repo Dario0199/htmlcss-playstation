@@ -20,6 +20,7 @@ body{
 .nav-item{
     color: black;
 }
+
 /* returnal section */
 .returnal-img{
     width: 100%;
@@ -183,12 +184,58 @@ body{
     border-radius: 20px;
 }
 
+/* section platstation plus */
+.PSplus-bg{
+    width: 100%;
+    height: auto;
+    background: rgb(189, 186, 186);
+    margin-top: 10px;
+    background-position: center;
+}
+
+.PSplus-txt img{
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.PSplus-txt p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.PSplus-txt button{
+    font-size: 14px;
+    font-weight: 500;
+    background: lightgray;
+    color: rgb(66, 66, 250);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.PSplus-game img{
+    width: 100%;
+}
+
 /* media queries */
 @media screen and (min-width: 769px){
     .container{
         width: 60%;
         height: auto;
     }
+}
+
+@media screen and (max-width: 769px){
+    .PSplus-game img{
+        display: none;
+    }
+    
+    .PSplus-bg{
+        display: flex;
+        align-items: center;
+        padding: 30px 30px;
+    }
+
 }
 
 @media screen and (max-width: 576px){
@@ -204,7 +251,4 @@ body{
         display: flex;
         justify-content: center;
     }
-
-
-
 }
