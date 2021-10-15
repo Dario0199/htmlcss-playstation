@@ -141,7 +141,46 @@ body{
 .box-new-rel{
     font-size: 14px;
     font-weight: 500;
+}
 
+.box-new-rel i{
+    font-size: 7px;
+    line-height: 0;
+}
+
+/* ps4 section */
+.ps4 p{
+   text-align: center;
+   font-size: 14px;
+   font-weight: 600;
+   color: grey;
+}
+
+.ps4 h2{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.ps4 h2 i{
+    font-size: 10px;
+}
+
+.ps4-access img{
+    width: 100%;
+}
+
+.ps4-access p{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+}
+
+.ps4-access button{
+    font-size: 12px;
+    background: blue;
+    color: white;
+    border-radius: 20px;
 }
 
 /* media queries */
