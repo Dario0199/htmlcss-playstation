@@ -4,6 +4,11 @@ body{
 
 
 /* header */
+header{
+    width: 100%;
+    position: fixed;
+}
+
 .blackbar{
     background: black;
 }
@@ -216,6 +221,40 @@ body{
 .PSplus-game img{
     width: 100%;
 }
+
+/* discount section */
+.discount p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+ }
+ 
+ .discount h2{
+     display: flex;
+     align-items: flex-start;
+     margin-top: 20px;
+ }
+ 
+ .discount-pic img{
+     width: 100%;
+     height: auto;
+     margin-bottom: 30px;
+ }
+ 
+ .ps4-access p{
+     font-size: 13px;
+     font-weight: 500;
+     color: grey;
+ }
+ 
+ .ps4-access button{
+     font-size: 12px;
+     background: blue;
+     color: white;
+     border-radius: 20px;
+ }
+ 
 
 /* media queries */
 @media screen and (min-width: 769px){
