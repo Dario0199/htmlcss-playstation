@@ -255,6 +255,39 @@ header{
      border-radius: 20px;
  }
  
+ /* avengers section */
+ .PSnow-bg{
+    width: 100%;
+    height: auto;
+    background: rgb(17, 0, 78);
+    margin-top: 10px;
+    background-position: center;
+}
+
+.PSnow-txt img{
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.PSnow-txt p{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.PSnow-txt button{
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.PSnow-game img{
+    width: 100%;
+}
 
 /* media queries */
 @media screen and (min-width: 769px){
@@ -274,6 +307,17 @@ header{
         align-items: center;
         padding: 30px 30px;
     }
+
+    .PSnow-game img{
+        display: none;
+    }
+    
+    .PSnow-bg{
+        display: flex;
+        align-items: center;
+        padding: 30px 30px;
+    }
+
 
 }
 
