@@ -242,18 +242,6 @@ header{
      margin-bottom: 30px;
  }
  
- .ps4-access p{
-     font-size: 13px;
-     font-weight: 500;
-     color: grey;
- }
- 
- .ps4-access button{
-     font-size: 12px;
-     background: blue;
-     color: white;
-     border-radius: 20px;
- }
  
  /* avengers section */
  .PSnow-bg{
@@ -287,11 +275,88 @@ header{
 
 .PSnow-game img{
     width: 100%;
+    height: auto;
 }
+
+/* social section */
+.social p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+ }
+ 
+ .social h3{
+     display: flex;
+     align-items: flex-start;
+     margin-top: 20px;
+     margin-bottom: 50px;
+ }
+ 
+ .social-pic img{
+     width: 100%;
+     height: auto;
+     margin-bottom: 30px;
+ }
+
+ /* footer */
+ .PSfooter-bg{
+     width: 100%;
+     height: auto;
+     background: #00439c;
+ }
+
+ .PS-logo{
+     margin-top: 45px;
+ }
+
+ .PS-logo img{
+     width: 70px;
+     height: auto;
+     margin-bottom: 20px;
+ }
+
+ .PS-logo p{
+     color: white;
+     font-size: 13px;
+ }
+
+ .PS-logo .globe i{
+     font-size: 15px;
+     margin-right: 10px;
+ }
+
+ .link ul{
+     list-style: none;
+ }
+
+ .link li a{
+     text-decoration: none;
+     color: white;
+     font-size: 13px;
+ }
+
+ .sie-logo img{
+     width: 100px;
+ }
+
+ .sie-logo{
+     font-size: 13px;
+ }
+
+ .copy i{
+     font-size: 11px;
+     margin-right: 0;
+ }
 
 /* media queries */
 @media screen and (min-width: 769px){
     .container{
+        width: 60%;
+        height: auto;
+    }
+
+    .container-social{
         width: 60%;
         height: auto;
     }
@@ -318,7 +383,10 @@ header{
         padding: 30px 30px;
     }
 
-
+    .container-social{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -333,5 +401,18 @@ header{
     .button-info{
         display: flex;
         justify-content: center;
+    }
+
+    .container-social{
+        width: 100%;
+        height: auto;
+    }
+
+    .col-6{
+        width: calc(12 / 6);
+    }
+
+    .col-12{
+        width: 100%;
     }
 }
